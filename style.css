@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) {
+    nav {
+        display: flex;
+        width: 100%;
+        height: 90px;
+        background: #F6F1EE;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .title h1:nth-child(1) {
+        color: #FF6E0C;
+    }
+    
+    .title h1:nth-child(2) {
+        color: #F00B8F;
+    }
+    
+    .title h1 {
+        font-family: 'Titan One', sans-serif;
+        font-size: 2.30rem;
+    }
+    
+    .coffe {
+        width: 68px;
+        height: 90px;
+        padding: -20px;
+    }
+    
+    .menu {
+        width: 50px;
+        height: 50px;
+        padding: -20px;
+    }
+    
+    main {
+        margin-top: 10px;
+        width: 100%;
+        height: 280px;
+        display: flex;
+        /* background: red; */
+    }
+    
+    .box {
+        width: 215px;
+        height: 260px;
+    }
+    
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* background-color: #9a4b1d; */
+    }
+    
+    .text-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -90px;
+    }
+    
+    .text-child h2 {
+        font-family: 'Titan One', sans-serif;
+        color: #FF6E0C;
+    }
+    
+    .text-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2px;
+        margin-top: -40px;
+        /* background-color: #FF6E0C; */
+    }
+    
+    .text-second h2 {
+        font-family: 'Titan One', sans-serif;
+        color: #512E00;
+        font-size: 16px;
+    }
+    
+    .enduplados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 330px;
+        background: #FF6E0C;
+        margin-top: -20px;
+    }
+    
+    .text-endu h1 {
+        font-size: 4rem;
+        font-family: 'Titan One', sans-serif;
+        color: #512E00;
+        margin: 5px 5px;
+    }
+    
+    .cof-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fo {
+        width: 180px;
+        height: 210px;
+    }
+    
+    .almo-footer {
+        width: 100%;
+        background: #F00B8F;
+        height: 120px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .contentOne {
+        width: 70px;
+        height: auto;
+        margin-top: 14px;
+        margin-left: 19px;
+        background: #F5DEB3;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+    }
+    
+    .contentTwo {
+        width: 70px;
+        height: auto;
+        margin-top: 13px;
+        margin-left: 17px;
+        background: #F5DEB3;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+        position: relative;
+    }
+    
+    .contentThree {
+        width: 70px;
+        height: auto;
+        margin-top: 14px;
+        margin-left: 13px;
+        background: #F5DEB3;
+        border-top-right-radius: 14px;
+        border-top-left-radius: 14px;
+    }
+    
+    .almo-footer img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .contentTwo .dsa {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: -10px;
+    }
+}
+
+@media (min-width: 425) {
+    .box {
+        width: 375px;
+        height: 290px;
+    }
+}
